@@ -2,14 +2,20 @@ $primary-color:   #FDA403;
 $background-color:#1F1F1F;
 $section-color:   #F1F1F1;
 $secondary-color :#C3C3C3;
-$range-kire-man:#721b5c;
+
+
+// font
+$html-font-family: b-yekan;
+$html-font-size: 62.5%;
+
 /**font sizes**/
-$fontsizes-h1:96px;
-$fontsizes-h2:64px;
-$fontsizes-h3:42px;
-$fontsizes-h4:24px;
-$fontsizes-primary:16px;
-$fontsizes-footer:12px;
+$font-sizes-h1:96rem;
+$font-sizes-h2:64rem;
+$font-sizes-h3:42rem;
+$font-sizes-h4:24rem;
+$font-sizes-primary:16rem;
+$font-sizes-footer:12rem;
 /**font weights**/
-$font-weight-normal:600;
+
 $font-weight-primary:400;
+$font-weight-bold:600;
