@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 @font-face {
   font-family: b-yekan;
   src: url(../Font/Yekan.ttf);
 }
 
+=======
+/**font sizes**/
+/**font weights**/
+>>>>>>> bdc3d7b91577cb3dac4e301bb32ca96755f9649c
 html, body {
   height: 100vh;
   width: 100%;
