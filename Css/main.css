@@ -1,16 +1,8 @@
-<<<<<<< HEAD
+/**font sizes**/
+/**font weights**/
 @font-face {
   font-family: b-yekan;
   src: url(../Font/Yekan.ttf);
-}
-
-=======
-/**font sizes**/
-/**font weights**/
->>>>>>> bdc3d7b91577cb3dac4e301bb32ca96755f9649c
-html, body {
-  height: 100vh;
-  width: 100%;
 }
 
 *, *::after, ::before {
@@ -20,8 +12,19 @@ html, body {
           box-sizing: border-box;
 }
 
+html, body {
+  height: 100vh;
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
+  font-family: b-yekan;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16rem;
 }
 
 textarea, button, input {

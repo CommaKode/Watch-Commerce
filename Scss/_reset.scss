@@ -2,17 +2,26 @@
     font-family: b-yekan;
     src: url(../Font/Yekan.ttf);
 }
-html, body {
-    height: 100vh;
-    width: 100%;
-}
+
 *, *::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
 html {
     scroll-behavior: smooth;
+    font-family: $html-font-family;
+    font-size: $html-font-size;
+}
+
+body {
+    font-size: $font-sizes-primary;
 }
 textarea, button, input {
     border: none;
